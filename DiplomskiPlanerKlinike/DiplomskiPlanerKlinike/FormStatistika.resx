@@ -1,0 +1,750 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="labelTitlebarLogin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>49, 13</value>
+  </data>
+  <data name="&gt;&gt;iconScheduler.Parent" xml:space="preserve">
+    <value>panelStatsTitleBar</value>
+  </data>
+  <data name="chartStat.Location" type="System.Drawing.Point, System.Drawing">
+    <value>218, 114</value>
+  </data>
+  <data name="labelTitlebarLogin.Text" xml:space="preserve">
+    <value>Clinic Statistics</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="checkBoxChartCheckup.TabIndex" type="System.Int32, mscorlib">
+    <value>64</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="buttonChartGenerate.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="buttonChartGenerate.TabIndex" type="System.Int32, mscorlib">
+    <value>49</value>
+  </data>
+  <data name="&gt;&gt;labelListDoctorLogout.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="textBoxChartYear.Location" type="System.Drawing.Point, System.Drawing">
+    <value>824, 594</value>
+  </data>
+  <data name="labelChartYear.Text" xml:space="preserve">
+    <value>Year:</value>
+  </data>
+  <data name="&gt;&gt;checkBoxChartExam.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chartStat.Name" xml:space="preserve">
+    <value>chartStat</value>
+  </data>
+  <data name="&gt;&gt;labelTitlebarLogin.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="checkBoxChartTherapy.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 18</value>
+  </data>
+  <data name="&gt;&gt;buttonSelectPagesStat.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="textBoxChartYear.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 22</value>
+  </data>
+  <data name="&gt;&gt;buttonSchedulerStat.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonSchedulerStat.Parent" xml:space="preserve">
+    <value>panelSelectPagesStat</value>
+  </data>
+  <data name="buttonSchedulerStat.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="buttonSchedulerStat.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 9pt</value>
+  </data>
+  <data name="labelTitlebarLogin.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;iconLogout.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="chartStat.Text" xml:space="preserve">
+    <value>chart1</value>
+  </data>
+  <data name="&gt;&gt;checkBoxChartOperation.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="buttonSelectPagesStat.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="checkBoxChartOperation.Location" type="System.Drawing.Point, System.Drawing">
+    <value>47, 459</value>
+  </data>
+  <data name="&gt;&gt;checkBoxChartExam.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="buttonSelectPagesStat.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 9pt</value>
+  </data>
+  <data name="buttonListDoctorsStat.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 123</value>
+  </data>
+  <data name="buttonSchedulerStat.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 41</value>
+  </data>
+  <data name="&gt;&gt;panelStatsTitleBar.Name" xml:space="preserve">
+    <value>panelStatsTitleBar</value>
+  </data>
+  <data name="&gt;&gt;buttonListPatientsStat.Name" xml:space="preserve">
+    <value>buttonListPatientsStat</value>
+  </data>
+  <data name="&gt;&gt;buttonListDoctorsStat.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBoxChartCheckup.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="labelChartYear.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 14</value>
+  </data>
+  <data name="labelLogout.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 10pt, style=Bold</value>
+  </data>
+  <data name="labelLogout.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="buttonSchedulerStat.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;iconScheduler.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="iconScheduler.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="labelTitlebarLogin.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 10pt, style=Bold</value>
+  </data>
+  <data name="iconListDoctorLogout.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 34</value>
+  </data>
+  <data name="&gt;&gt;iconListDoctorLogout.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="buttonSelectPagesStat.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;panelSelectPagesStat.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="labelTitlebarLogin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>123, 17</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="checkBoxChartOperation.Text" xml:space="preserve">
+    <value>Show Operation</value>
+  </data>
+  <data name="&gt;&gt;iconLogout.Name" xml:space="preserve">
+    <value>iconLogout</value>
+  </data>
+  <data name="&gt;&gt;buttonSelectPagesStat.Name" xml:space="preserve">
+    <value>buttonSelectPagesStat</value>
+  </data>
+  <data name="&gt;&gt;buttonListDoctorsStat.Name" xml:space="preserve">
+    <value>buttonListDoctorsStat</value>
+  </data>
+  <data name="&gt;&gt;checkBoxChartLab.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;chartStat.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="buttonChartGenerate.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 9pt</value>
+  </data>
+  <data name="checkBoxChartTherapy.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="buttonListPatientsStat.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="checkBoxChartOperation.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelChartYear.TabIndex" type="System.Int32, mscorlib">
+    <value>58</value>
+  </data>
+  <data name="checkBoxChartLab.Location" type="System.Drawing.Point, System.Drawing">
+    <value>47, 393</value>
+  </data>
+  <data name="&gt;&gt;iconLogout.Parent" xml:space="preserve">
+    <value>panelStatsTitleBar</value>
+  </data>
+  <data name="panelStatsTitleBar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;iconListDoctorLogout.Type" xml:space="preserve">
+    <value>FontAwesome.Sharp.IconPictureBox, FontAwesome.Sharp, Version=5.8.3.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="labelLogout.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;labelListDoctorLogout.Name" xml:space="preserve">
+    <value>labelListDoctorLogout</value>
+  </data>
+  <data name="&gt;&gt;checkBoxChartExam.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="iconScheduler.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 34</value>
+  </data>
+  <data name="labelLogout.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 17</value>
+  </data>
+  <data name="checkBoxChartTherapy.Location" type="System.Drawing.Point, System.Drawing">
+    <value>47, 426</value>
+  </data>
+  <data name="checkBoxChartLab.TabIndex" type="System.Int32, mscorlib">
+    <value>61</value>
+  </data>
+  <data name="&gt;&gt;labelLogout.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="labelLogout.Text" xml:space="preserve">
+    <value>Log Out</value>
+  </data>
+  <data name="&gt;&gt;buttonListPatientsStat.Parent" xml:space="preserve">
+    <value>panelSelectPagesStat</value>
+  </data>
+  <data name="buttonListDoctorsStat.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="checkBoxChartExam.TabIndex" type="System.Int32, mscorlib">
+    <value>60</value>
+  </data>
+  <data name="&gt;&gt;checkBoxChartTherapy.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelChartYear.Name" xml:space="preserve">
+    <value>labelChartYear</value>
+  </data>
+  <data name="labelListDoctorLogout.Text" xml:space="preserve">
+    <value>Log Out</value>
+  </data>
+  <data name="&gt;&gt;panelStatsTitleBar.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="buttonSelectPagesStat.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="checkBoxChartOperation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 18</value>
+  </data>
+  <data name="buttonSchedulerStat.Size" type="System.Drawing.Size, System.Drawing">
+    <value>136, 42</value>
+  </data>
+  <data name="checkBoxChartExam.Location" type="System.Drawing.Point, System.Drawing">
+    <value>47, 361</value>
+  </data>
+  <data name="&gt;&gt;labelListDoctorLogout.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="buttonSelectPagesStat.Size" type="System.Drawing.Size, System.Drawing">
+    <value>136, 42</value>
+  </data>
+  <data name="&gt;&gt;buttonSelectPagesStat.Parent" xml:space="preserve">
+    <value>panelSelectPagesStat</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>FormStatistika</value>
+  </data>
+  <data name="&gt;&gt;checkBoxChartOperation.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1086, 634</value>
+  </data>
+  <data name="buttonListDoctorsStat.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;panelSelectPagesStat.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="panelSelectPagesStat.Location" type="System.Drawing.Point, System.Drawing">
+    <value>27, 73</value>
+  </data>
+  <data name="&gt;&gt;iconListDoctorLogout.Parent" xml:space="preserve">
+    <value>panelStatsTitleBar</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>FormStatistika</value>
+  </data>
+  <data name="labelChartYear.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 9pt</value>
+  </data>
+  <data name="&gt;&gt;checkBoxChartCheckup.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="buttonSelectPagesStat.Text" xml:space="preserve">
+    <value>Pages</value>
+  </data>
+  <data name="&gt;&gt;labelLogout.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="checkBoxChartExam.Size" type="System.Drawing.Size, System.Drawing">
+    <value>142, 18</value>
+  </data>
+  <data name="buttonListPatientsStat.Size" type="System.Drawing.Size, System.Drawing">
+    <value>136, 42</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="checkBoxChartTherapy.Text" xml:space="preserve">
+    <value>Show Therapy</value>
+  </data>
+  <data name="checkBoxChartTherapy.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 9pt</value>
+  </data>
+  <data name="labelListDoctorLogout.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;checkBoxChartTherapy.Name" xml:space="preserve">
+    <value>checkBoxChartTherapy</value>
+  </data>
+  <data name="&gt;&gt;iconListDoctorLogout.Name" xml:space="preserve">
+    <value>iconListDoctorLogout</value>
+  </data>
+  <data name="buttonListDoctorsStat.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="panelStatsTitleBar.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="iconListDoctorLogout.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;buttonChartGenerate.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="buttonSelectPagesStat.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;labelChartYear.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="buttonListDoctorsStat.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 9pt</value>
+  </data>
+  <data name="&gt;&gt;checkBoxChartLab.Name" xml:space="preserve">
+    <value>checkBoxChartLab</value>
+  </data>
+  <data name="&gt;&gt;iconScheduler.Type" xml:space="preserve">
+    <value>FontAwesome.Sharp.IconPictureBox, FontAwesome.Sharp, Version=5.8.3.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="checkBoxChartOperation.TabIndex" type="System.Int32, mscorlib">
+    <value>63</value>
+  </data>
+  <data name="iconScheduler.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelLogout.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1434, 13</value>
+  </data>
+  <data name="&gt;&gt;buttonListDoctorsStat.Parent" xml:space="preserve">
+    <value>panelSelectPagesStat</value>
+  </data>
+  <data name="checkBoxChartCheckup.Text" xml:space="preserve">
+    <value>Show Check-up</value>
+  </data>
+  <data name="labelListDoctorLogout.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="checkBoxChartExam.Text" xml:space="preserve">
+    <value>Show Examination</value>
+  </data>
+  <data name="checkBoxChartCheckup.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;buttonSchedulerStat.Name" xml:space="preserve">
+    <value>buttonSchedulerStat</value>
+  </data>
+  <data name="buttonChartGenerate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>906, 593</value>
+  </data>
+  <data name="checkBoxChartExam.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;buttonSelectPagesStat.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="chartStat.Size" type="System.Drawing.Size, System.Drawing">
+    <value>840, 458</value>
+  </data>
+  <data name="&gt;&gt;checkBoxChartCheckup.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="checkBoxChartCheckup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>123, 18</value>
+  </data>
+  <data name="panelSelectPagesStat.Size" type="System.Drawing.Size, System.Drawing">
+    <value>136, 41</value>
+  </data>
+  <data name="&gt;&gt;labelTitlebarLogin.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="labelTitlebarLogin.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;checkBoxChartTherapy.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelChartYear.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;checkBoxChartExam.Name" xml:space="preserve">
+    <value>checkBoxChartExam</value>
+  </data>
+  <data name="labelLogout.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;checkBoxChartCheckup.Name" xml:space="preserve">
+    <value>checkBoxChartCheckup</value>
+  </data>
+  <data name="labelTitlebarLogin.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="checkBoxChartOperation.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 9pt</value>
+  </data>
+  <data name="buttonListPatientsStat.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 9pt</value>
+  </data>
+  <data name="&gt;&gt;panelStatsTitleBar.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;checkBoxChartLab.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonChartGenerate.Name" xml:space="preserve">
+    <value>buttonChartGenerate</value>
+  </data>
+  <data name="iconLogout.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;buttonListPatientsStat.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="textBoxChartYear.TabIndex" type="System.Int32, mscorlib">
+    <value>57</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;iconScheduler.Name" xml:space="preserve">
+    <value>iconScheduler</value>
+  </data>
+  <data name="&gt;&gt;labelLogout.Name" xml:space="preserve">
+    <value>labelLogout</value>
+  </data>
+  <data name="checkBoxChartCheckup.Location" type="System.Drawing.Point, System.Drawing">
+    <value>47, 492</value>
+  </data>
+  <data name="buttonChartGenerate.Text" xml:space="preserve">
+    <value>Generate Chart</value>
+  </data>
+  <data name="iconListDoctorLogout.Location" type="System.Drawing.Point, System.Drawing">
+    <value>966, 9</value>
+  </data>
+  <data name="&gt;&gt;labelChartYear.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBoxChartTherapy.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="panelStatsTitleBar.TabIndex" type="System.Int32, mscorlib">
+    <value>65</value>
+  </data>
+  <data name="buttonListPatientsStat.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;textBoxChartYear.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="buttonListDoctorsStat.Text" xml:space="preserve">
+    <value>List of doctors</value>
+  </data>
+  <data name="&gt;&gt;panelSelectPagesStat.Name" xml:space="preserve">
+    <value>panelSelectPagesStat</value>
+  </data>
+  <data name="&gt;&gt;textBoxChartYear.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="buttonSchedulerStat.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="labelListDoctorLogout.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1003, 13</value>
+  </data>
+  <data name="chartStat.TabIndex" type="System.Int32, mscorlib">
+    <value>48</value>
+  </data>
+  <data name="checkBoxChartLab.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 9pt</value>
+  </data>
+  <data name="buttonListPatientsStat.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 82</value>
+  </data>
+  <data name="checkBoxChartLab.Text" xml:space="preserve">
+    <value>Show Laboratory</value>
+  </data>
+  <data name="&gt;&gt;chartStat.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataVisualization.Charting.Chart, System.Windows.Forms.DataVisualization, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35</value>
+  </data>
+  <data name="iconLogout.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;buttonSchedulerStat.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;textBoxChartYear.Name" xml:space="preserve">
+    <value>textBoxChartYear</value>
+  </data>
+  <data name="checkBoxChartExam.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 9pt</value>
+  </data>
+  <data name="&gt;&gt;labelLogout.Parent" xml:space="preserve">
+    <value>panelStatsTitleBar</value>
+  </data>
+  <data name="panelStatsTitleBar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1086, 43</value>
+  </data>
+  <data name="&gt;&gt;labelTitlebarLogin.Parent" xml:space="preserve">
+    <value>panelStatsTitleBar</value>
+  </data>
+  <data name="labelChartYear.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelListDoctorLogout.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 10pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;iconLogout.Type" xml:space="preserve">
+    <value>FontAwesome.Sharp.IconPictureBox, FontAwesome.Sharp, Version=5.8.3.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;checkBoxChartLab.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="panelSelectPagesStat.TabIndex" type="System.Int32, mscorlib">
+    <value>46</value>
+  </data>
+  <data name="textBoxChartYear.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 9pt</value>
+  </data>
+  <data name="checkBoxChartLab.Size" type="System.Drawing.Size, System.Drawing">
+    <value>134, 18</value>
+  </data>
+  <data name="&gt;&gt;buttonChartGenerate.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;labelTitlebarLogin.Name" xml:space="preserve">
+    <value>labelTitlebarLogin</value>
+  </data>
+  <data name="buttonListPatientsStat.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="iconListDoctorLogout.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="iconScheduler.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 9</value>
+  </data>
+  <data name="&gt;&gt;checkBoxChartOperation.Name" xml:space="preserve">
+    <value>checkBoxChartOperation</value>
+  </data>
+  <data name="&gt;&gt;chartStat.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="iconLogout.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 34</value>
+  </data>
+  <data name="&gt;&gt;panelSelectPagesStat.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="buttonListPatientsStat.Text" xml:space="preserve">
+    <value>List of patients</value>
+  </data>
+  <data name="checkBoxChartTherapy.TabIndex" type="System.Int32, mscorlib">
+    <value>62</value>
+  </data>
+  <data name="&gt;&gt;buttonListPatientsStat.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelChartYear.Location" type="System.Drawing.Point, System.Drawing">
+    <value>779, 597</value>
+  </data>
+  <data name="checkBoxChartLab.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;checkBoxChartOperation.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="buttonListDoctorsStat.Size" type="System.Drawing.Size, System.Drawing">
+    <value>136, 42</value>
+  </data>
+  <data name="iconLogout.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1390, 9</value>
+  </data>
+  <data name="&gt;&gt;panelStatsTitleBar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="buttonChartGenerate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>139, 23</value>
+  </data>
+  <data name="buttonSchedulerStat.Text" xml:space="preserve">
+    <value>Scheduler</value>
+  </data>
+  <data name="labelListDoctorLogout.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;textBoxChartYear.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="checkBoxChartCheckup.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 9pt</value>
+  </data>
+  <data name="labelListDoctorLogout.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 17</value>
+  </data>
+  <data name="&gt;&gt;buttonListDoctorsStat.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;buttonChartGenerate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelListDoctorLogout.Parent" xml:space="preserve">
+    <value>panelStatsTitleBar</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+</root>

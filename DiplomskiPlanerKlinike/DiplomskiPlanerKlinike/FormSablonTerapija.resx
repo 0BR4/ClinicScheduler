@@ -1,0 +1,777 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="textBoxTherapyTime.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="labelTherapyJMBG.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 9pt</value>
+  </data>
+  <data name="&gt;&gt;buttonTherapyConfirm.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="textBoxTherapyProblem.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="textBoxTherapyJMBG.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="&gt;&gt;iconTherapyExit.Parent" xml:space="preserve">
+    <value>panelExamTitleBar</value>
+  </data>
+  <data name="iconMedical.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="buttonTherapyConfirm.Text" xml:space="preserve">
+    <value>Confirm</value>
+  </data>
+  <data name="iconMedical.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 8</value>
+  </data>
+  <data name="textBoxTherapyProblem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>219, 32</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="iconTherapyExit.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="textBoxTherapyCode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>145, 222</value>
+  </data>
+  <data name="buttonTherapyConfirm.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="textBoxTherapyRevisits.Location" type="System.Drawing.Point, System.Drawing">
+    <value>145, 140</value>
+  </data>
+  <data name="textBoxTherapyRevisits.Size" type="System.Drawing.Size, System.Drawing">
+    <value>219, 22</value>
+  </data>
+  <data name="labelTherapyProblem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 14</value>
+  </data>
+  <data name="labelTherapyDate.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 9pt</value>
+  </data>
+  <data name="labelTherapyExit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 17</value>
+  </data>
+  <data name="&gt;&gt;labelTherapyCode.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;labelTherapyCode.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBoxTherapyJMBG.Name" xml:space="preserve">
+    <value>textBoxTherapyJMBG</value>
+  </data>
+  <data name="textBoxTherapyJMBG.Location" type="System.Drawing.Point, System.Drawing">
+    <value>145, 101</value>
+  </data>
+  <data name="labelTherapyRevisits.Text" xml:space="preserve">
+    <value>Number of revisists:</value>
+  </data>
+  <data name="buttonTherapyClear.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="&gt;&gt;textBoxTherapyCode.Name" xml:space="preserve">
+    <value>textBoxTherapyCode</value>
+  </data>
+  <data name="&gt;&gt;labelTherapyDate.Name" xml:space="preserve">
+    <value>labelTherapyDate</value>
+  </data>
+  <data name="labelTherapyDate.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;labelTherapyProblem.Name" xml:space="preserve">
+    <value>labelTherapyProblem</value>
+  </data>
+  <data name="textBoxTherapyDoctor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>219, 22</value>
+  </data>
+  <data name="&gt;&gt;labelTherapyTime.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="buttonTherapyConfirm.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="&gt;&gt;panelExamTitleBar.Name" xml:space="preserve">
+    <value>panelExamTitleBar</value>
+  </data>
+  <data name="&gt;&gt;textBoxTherapyTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="textBoxTherapyDate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>219, 22</value>
+  </data>
+  <data name="&gt;&gt;textBoxTherapyDoctor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelTherapyJMBG.Text" xml:space="preserve">
+    <value>ID number:</value>
+  </data>
+  <data name="&gt;&gt;labelTherapyDate.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Appoint Therapy</value>
+  </data>
+  <data name="labelTherapyDate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 14</value>
+  </data>
+  <data name="&gt;&gt;textBoxTherapyTime.Name" xml:space="preserve">
+    <value>textBoxTherapyTime</value>
+  </data>
+  <data name="&gt;&gt;labelTherapyRevisits.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="labelTherapyTime.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelTherapyCode.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="&gt;&gt;labelTitlebarTherapy.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBoxTherapyDate.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelTherapyPatient.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;labelTherapyExit.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;iconTherapyExit.Name" xml:space="preserve">
+    <value>iconTherapyExit</value>
+  </data>
+  <data name="labelTherapyDate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 296</value>
+  </data>
+  <data name="labelTherapyPatient.Text" xml:space="preserve">
+    <value>Patient name:</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="&gt;&gt;labelTherapyRevisits.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="panelExamTitleBar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>397, 40</value>
+  </data>
+  <data name="labelTherapyExit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>357, 12</value>
+  </data>
+  <data name="textBoxTherapyDoctor.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="labelTherapyPatient.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 9pt</value>
+  </data>
+  <data name="&gt;&gt;textBoxTherapyProblem.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;labelExamDoctor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="textBoxTherapyTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>219, 22</value>
+  </data>
+  <data name="buttonTherapyConfirm.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 23</value>
+  </data>
+  <data name="textBoxTherapyPatient.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="buttonTherapyClear.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 9pt</value>
+  </data>
+  <data name="buttonTherapyClear.Location" type="System.Drawing.Point, System.Drawing">
+    <value>145, 368</value>
+  </data>
+  <data name="panelExamTitleBar.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="&gt;&gt;labelTherapyRevisits.Name" xml:space="preserve">
+    <value>labelTherapyRevisits</value>
+  </data>
+  <data name="labelTherapyJMBG.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="&gt;&gt;labelTherapyPatient.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="panelExamTitleBar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;iconTherapyExit.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;textBoxTherapyDoctor.Name" xml:space="preserve">
+    <value>textBoxTherapyDoctor</value>
+  </data>
+  <data name="&gt;&gt;labelTherapyRevisits.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="labelTherapyPatient.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="textBoxTherapyProblem.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelTherapyProblem.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelTitlebarTherapy.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="textBoxTherapyDate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>145, 293</value>
+  </data>
+  <data name="textBoxTherapyTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>145, 252</value>
+  </data>
+  <data name="labelTitlebarTherapy.Location" type="System.Drawing.Point, System.Drawing">
+    <value>37, 12</value>
+  </data>
+  <data name="&gt;&gt;textBoxTherapyJMBG.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBoxTherapyRevisits.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelTherapyExit.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;buttonTherapyConfirm.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelTherapyCode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 14</value>
+  </data>
+  <data name="labelTherapyTime.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="iconTherapyExit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>322, 6</value>
+  </data>
+  <data name="buttonTherapyClear.Text" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="&gt;&gt;labelTherapyProblem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelTherapyPatient.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 64</value>
+  </data>
+  <data name="&gt;&gt;iconMedical.Name" xml:space="preserve">
+    <value>iconMedical</value>
+  </data>
+  <data name="labelTherapyRevisits.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="textBoxTherapyDate.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 9pt</value>
+  </data>
+  <data name="&gt;&gt;textBoxTherapyProblem.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="labelTitlebarTherapy.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 10pt, style=Bold</value>
+  </data>
+  <data name="labelTherapyCode.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 9pt</value>
+  </data>
+  <data name="&gt;&gt;textBoxTherapyProblem.Name" xml:space="preserve">
+    <value>textBoxTherapyProblem</value>
+  </data>
+  <data name="labelExamDoctor.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="&gt;&gt;iconMedical.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="textBoxTherapyCode.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="&gt;&gt;buttonTherapyClear.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelTitlebarTherapy.Name" xml:space="preserve">
+    <value>labelTitlebarTherapy</value>
+  </data>
+  <data name="&gt;&gt;iconMedical.Type" xml:space="preserve">
+    <value>FontAwesome.Sharp.IconPictureBox, FontAwesome.Sharp, Version=5.8.3.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="&gt;&gt;labelTherapyJMBG.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBoxTherapyJMBG.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelExamDoctor.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="labelTherapyTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 14</value>
+  </data>
+  <data name="&gt;&gt;labelTherapyTime.Name" xml:space="preserve">
+    <value>labelTherapyTime</value>
+  </data>
+  <data name="&gt;&gt;buttonTherapyClear.Name" xml:space="preserve">
+    <value>buttonTherapyClear</value>
+  </data>
+  <data name="iconMedical.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 32</value>
+  </data>
+  <data name="textBoxTherapyPatient.Location" type="System.Drawing.Point, System.Drawing">
+    <value>145, 61</value>
+  </data>
+  <data name="&gt;&gt;labelTherapyDate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="buttonTherapyClear.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="&gt;&gt;textBoxTherapyCode.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="labelTherapyProblem.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 9pt</value>
+  </data>
+  <data name="&gt;&gt;textBoxTherapyDoctor.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;textBoxTherapyPatient.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="labelTherapyJMBG.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;labelTherapyProblem.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;labelTitlebarTherapy.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="labelTherapyTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 259</value>
+  </data>
+  <data name="&gt;&gt;textBoxTherapyCode.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;buttonTherapyConfirm.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="labelTherapyPatient.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 14</value>
+  </data>
+  <data name="&gt;&gt;textBoxTherapyRevisits.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="iconTherapyExit.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="panelExamTitleBar.TabIndex" type="System.Int32, mscorlib">
+    <value>47</value>
+  </data>
+  <data name="&gt;&gt;textBoxTherapyRevisits.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="labelTherapyRevisits.Size" type="System.Drawing.Size, System.Drawing">
+    <value>133, 14</value>
+  </data>
+  <data name="iconTherapyExit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 34</value>
+  </data>
+  <data name="labelTherapyProblem.Text" xml:space="preserve">
+    <value>Problem:</value>
+  </data>
+  <data name="textBoxTherapyDoctor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>145, 332</value>
+  </data>
+  <data name="labelTherapyJMBG.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 14</value>
+  </data>
+  <data name="textBoxTherapyCode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>219, 22</value>
+  </data>
+  <data name="labelTherapyTime.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 9pt</value>
+  </data>
+  <data name="&gt;&gt;labelTherapyCode.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;buttonTherapyClear.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;buttonTherapyConfirm.Name" xml:space="preserve">
+    <value>buttonTherapyConfirm</value>
+  </data>
+  <data name="labelExamDoctor.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 9pt</value>
+  </data>
+  <data name="&gt;&gt;labelTherapyPatient.Name" xml:space="preserve">
+    <value>labelTherapyPatient</value>
+  </data>
+  <data name="&gt;&gt;labelTherapyTime.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="labelTherapyDate.Text" xml:space="preserve">
+    <value>Therapy date:</value>
+  </data>
+  <data name="&gt;&gt;labelTherapyJMBG.Name" xml:space="preserve">
+    <value>labelTherapyJMBG</value>
+  </data>
+  <data name="&gt;&gt;textBoxTherapyDoctor.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;textBoxTherapyDate.Name" xml:space="preserve">
+    <value>textBoxTherapyDate</value>
+  </data>
+  <data name="labelTherapyJMBG.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 104</value>
+  </data>
+  <data name="&gt;&gt;panelExamTitleBar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelTherapyPatient.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBoxTherapyPatient.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="textBoxTherapyPatient.Size" type="System.Drawing.Size, System.Drawing">
+    <value>219, 22</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>FormSablonTerapija</value>
+  </data>
+  <data name="&gt;&gt;labelTherapyExit.Parent" xml:space="preserve">
+    <value>panelExamTitleBar</value>
+  </data>
+  <data name="textBoxTherapyRevisits.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="&gt;&gt;iconMedical.Parent" xml:space="preserve">
+    <value>panelExamTitleBar</value>
+  </data>
+  <data name="&gt;&gt;textBoxTherapyDate.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="labelTherapyTime.Text" xml:space="preserve">
+    <value>Therapy time:</value>
+  </data>
+  <data name="&gt;&gt;labelExamDoctor.Name" xml:space="preserve">
+    <value>labelExamDoctor</value>
+  </data>
+  <data name="&gt;&gt;panelExamTitleBar.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;textBoxTherapyTime.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="labelTherapyExit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 10pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBoxTherapyJMBG.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="labelExamDoctor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 14</value>
+  </data>
+  <data name="&gt;&gt;iconTherapyExit.Type" xml:space="preserve">
+    <value>FontAwesome.Sharp.IconPictureBox, FontAwesome.Sharp, Version=5.8.3.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="labelTherapyDate.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;textBoxTherapyPatient.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="textBoxTherapyPatient.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 9pt</value>
+  </data>
+  <data name="labelTitlebarTherapy.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 17</value>
+  </data>
+  <data name="&gt;&gt;labelTherapyDate.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;buttonTherapyClear.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;textBoxTherapyTime.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="labelTherapyCode.Text" xml:space="preserve">
+    <value>Disease code:</value>
+  </data>
+  <data name="&gt;&gt;labelTitlebarTherapy.Parent" xml:space="preserve">
+    <value>panelExamTitleBar</value>
+  </data>
+  <data name="textBoxTherapyJMBG.Size" type="System.Drawing.Size, System.Drawing">
+    <value>219, 22</value>
+  </data>
+  <data name="labelTherapyProblem.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="labelTherapyCode.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="textBoxTherapyCode.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 9pt</value>
+  </data>
+  <data name="&gt;&gt;labelTherapyJMBG.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;labelTherapyExit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBoxTherapyRevisits.Name" xml:space="preserve">
+    <value>textBoxTherapyRevisits</value>
+  </data>
+  <data name="labelTherapyPatient.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="textBoxTherapyDate.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="textBoxTherapyProblem.Location" type="System.Drawing.Point, System.Drawing">
+    <value>145, 178</value>
+  </data>
+  <data name="&gt;&gt;labelTherapyProblem.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="labelTherapyRevisits.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 143</value>
+  </data>
+  <data name="labelTherapyExit.Text" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="labelTherapyCode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 225</value>
+  </data>
+  <data name="labelTherapyProblem.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 181</value>
+  </data>
+  <data name="textBoxTherapyTime.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 9pt</value>
+  </data>
+  <data name="&gt;&gt;labelTherapyJMBG.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panelExamTitleBar.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="textBoxTherapyRevisits.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 9pt</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>397, 406</value>
+  </data>
+  <data name="&gt;&gt;labelTherapyTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="textBoxTherapyProblem.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 9pt</value>
+  </data>
+  <data name="labelTitlebarTherapy.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelTherapyRevisits.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 9pt</value>
+  </data>
+  <data name="&gt;&gt;textBoxTherapyDate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="buttonTherapyClear.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 23</value>
+  </data>
+  <data name="&gt;&gt;textBoxTherapyProblem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelTherapyExit.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelTitlebarTherapy.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="labelTitlebarTherapy.Text" xml:space="preserve">
+    <value>Appoint Therapy</value>
+  </data>
+  <data name="labelExamDoctor.Text" xml:space="preserve">
+    <value>Doctor:</value>
+  </data>
+  <data name="&gt;&gt;labelTherapyCode.Name" xml:space="preserve">
+    <value>labelTherapyCode</value>
+  </data>
+  <data name="textBoxTherapyJMBG.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 9pt</value>
+  </data>
+  <data name="&gt;&gt;textBoxTherapyCode.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="iconMedical.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="buttonTherapyConfirm.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 9pt</value>
+  </data>
+  <data name="labelExamDoctor.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;labelExamDoctor.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="textBoxTherapyDoctor.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 9pt</value>
+  </data>
+  <data name="&gt;&gt;labelTherapyExit.Name" xml:space="preserve">
+    <value>labelTherapyExit</value>
+  </data>
+  <data name="&gt;&gt;textBoxTherapyPatient.Name" xml:space="preserve">
+    <value>textBoxTherapyPatient</value>
+  </data>
+  <data name="labelTherapyRevisits.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="buttonTherapyConfirm.Location" type="System.Drawing.Point, System.Drawing">
+    <value>266, 368</value>
+  </data>
+  <data name="labelExamDoctor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 335</value>
+  </data>
+  <data name="labelTherapyExit.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+</root>

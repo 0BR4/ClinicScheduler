@@ -1,0 +1,779 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="labelCheckupDate.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="textBoxCheckupPeriod.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 9pt</value>
+  </data>
+  <data name="labelCheckupPatient.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 60</value>
+  </data>
+  <data name="&gt;&gt;textBoxCheckupPeriod.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBoxCheckupNumber.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="buttonCheckupConfirm.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 23</value>
+  </data>
+  <data name="labelCheckupProblem.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 9pt</value>
+  </data>
+  <data name="labelCheckupDate.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 9pt</value>
+  </data>
+  <data name="textBoxCheckupJMBG.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 9pt</value>
+  </data>
+  <data name="&gt;&gt;labelCheckupJMBG.Name" xml:space="preserve">
+    <value>labelCheckupJMBG</value>
+  </data>
+  <data name="iconMedical.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 8</value>
+  </data>
+  <data name="textBoxCheckupPeriod.Location" type="System.Drawing.Point, System.Drawing">
+    <value>129, 171</value>
+  </data>
+  <data name="&gt;&gt;labelCheckupNumber.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;buttonCheckupClear.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelCheckupNumber.Text" xml:space="preserve">
+    <value>Number of
+check-ups:</value>
+  </data>
+  <data name="labelCheckupDoctor.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 9pt</value>
+  </data>
+  <data name="buttonCheckupConfirm.Location" type="System.Drawing.Point, System.Drawing">
+    <value>266, 389</value>
+  </data>
+  <data name="labelCheckupExit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 17</value>
+  </data>
+  <data name="labelCheckupDate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 309</value>
+  </data>
+  <data name="labelCheckupDate.TabIndex" type="System.Int32, mscorlib">
+    <value>37</value>
+  </data>
+  <data name="buttonCheckupConfirm.TabIndex" type="System.Int32, mscorlib">
+    <value>47</value>
+  </data>
+  <data name="buttonCheckupConfirm.Text" xml:space="preserve">
+    <value>Confirm</value>
+  </data>
+  <data name="labelTitlebarCheckup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>148, 17</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="panelCheckupTitleBar.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="textBoxCheckupDate.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 9pt</value>
+  </data>
+  <data name="&gt;&gt;labelCheckupProblem.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;textBoxCheckupPatient.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="textBoxCheckupNumber.Size" type="System.Drawing.Size, System.Drawing">
+    <value>235, 22</value>
+  </data>
+  <data name="labelCheckupPeriod.TabIndex" type="System.Int32, mscorlib">
+    <value>51</value>
+  </data>
+  <data name="&gt;&gt;iconCheckupExit.Name" xml:space="preserve">
+    <value>iconCheckupExit</value>
+  </data>
+  <data name="textBoxCheckupProblem.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 9pt</value>
+  </data>
+  <data name="labelCheckupPatient.Text" xml:space="preserve">
+    <value>Patient name:</value>
+  </data>
+  <data name="&gt;&gt;panelCheckupTitleBar.Name" xml:space="preserve">
+    <value>panelCheckupTitleBar</value>
+  </data>
+  <data name="&gt;&gt;buttonCheckupClear.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;textBoxCheckupPeriod.Name" xml:space="preserve">
+    <value>textBoxCheckupPeriod</value>
+  </data>
+  <data name="labelCheckupDoctor.TabIndex" type="System.Int32, mscorlib">
+    <value>43</value>
+  </data>
+  <data name="&gt;&gt;textBoxCheckupDoctor.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="labelCheckupJMBG.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 14</value>
+  </data>
+  <data name="panelCheckupTitleBar.TabIndex" type="System.Int32, mscorlib">
+    <value>53</value>
+  </data>
+  <data name="labelCheckupProblem.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 223</value>
+  </data>
+  <data name="&gt;&gt;labelCheckupPatient.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBoxCheckupProblem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Appoint Check-up</value>
+  </data>
+  <data name="&gt;&gt;labelCheckupTime.Name" xml:space="preserve">
+    <value>labelCheckupTime</value>
+  </data>
+  <data name="&gt;&gt;labelCheckupDate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelCheckupDate.Text" xml:space="preserve">
+    <value>Check-up date:</value>
+  </data>
+  <data name="iconCheckupExit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>312, 8</value>
+  </data>
+  <data name="&gt;&gt;buttonCheckupConfirm.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelCheckupJMBG.Text" xml:space="preserve">
+    <value>ID number:</value>
+  </data>
+  <data name="textBoxCheckupJMBG.TabIndex" type="System.Int32, mscorlib">
+    <value>45</value>
+  </data>
+  <data name="textBoxCheckupPeriod.Size" type="System.Drawing.Size, System.Drawing">
+    <value>235, 22</value>
+  </data>
+  <data name="&gt;&gt;textBoxCheckupNumber.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="labelCheckupNumber.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 28</value>
+  </data>
+  <data name="&gt;&gt;labelCheckupJMBG.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="labelCheckupExit.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelCheckupDoctor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 14</value>
+  </data>
+  <data name="labelTitlebarCheckup.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="labelCheckupJMBG.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 9pt</value>
+  </data>
+  <data name="textBoxCheckupDate.TabIndex" type="System.Int32, mscorlib">
+    <value>41</value>
+  </data>
+  <data name="&gt;&gt;labelCheckupPeriod.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;textBoxCheckupProblem.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelCheckupDoctor.Name" xml:space="preserve">
+    <value>labelCheckupDoctor</value>
+  </data>
+  <data name="&gt;&gt;labelCheckupProblem.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="textBoxCheckupDoctor.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 9pt</value>
+  </data>
+  <data name="&gt;&gt;textBoxCheckupPatient.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="iconCheckupExit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 34</value>
+  </data>
+  <data name="textBoxCheckupDate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>129, 306</value>
+  </data>
+  <data name="labelCheckupProblem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 14</value>
+  </data>
+  <data name="textBoxCheckupJMBG.Location" type="System.Drawing.Point, System.Drawing">
+    <value>129, 94</value>
+  </data>
+  <data name="&gt;&gt;textBoxCheckupNumber.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="textBoxCheckupPeriod.TabIndex" type="System.Int32, mscorlib">
+    <value>52</value>
+  </data>
+  <data name="iconCheckupExit.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelCheckupPatient.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 14</value>
+  </data>
+  <data name="&gt;&gt;labelTitlebarCheckup.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelCheckupTime.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;textBoxCheckupJMBG.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="labelCheckupDoctor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 348</value>
+  </data>
+  <data name="&gt;&gt;labelCheckupExit.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="labelCheckupProblem.Text" xml:space="preserve">
+    <value>Problem:</value>
+  </data>
+  <data name="&gt;&gt;labelCheckupPeriod.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBoxCheckupTime.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="buttonCheckupClear.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 9pt</value>
+  </data>
+  <data name="&gt;&gt;labelCheckupPatient.Name" xml:space="preserve">
+    <value>labelCheckupPatient</value>
+  </data>
+  <data name="labelCheckupProblem.TabIndex" type="System.Int32, mscorlib">
+    <value>35</value>
+  </data>
+  <data name="iconCheckupExit.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;buttonCheckupClear.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelCheckupJMBG.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;iconMedical.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;textBoxCheckupTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>FormSablonKontrola</value>
+  </data>
+  <data name="&gt;&gt;labelCheckupDate.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="textBoxCheckupTime.TabIndex" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="&gt;&gt;panelCheckupTitleBar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="textBoxCheckupProblem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>235, 37</value>
+  </data>
+  <data name="&gt;&gt;iconMedical.Name" xml:space="preserve">
+    <value>iconMedical</value>
+  </data>
+  <data name="labelCheckupPeriod.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 171</value>
+  </data>
+  <data name="labelCheckupPatient.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 9pt</value>
+  </data>
+  <data name="&gt;&gt;textBoxCheckupTime.Name" xml:space="preserve">
+    <value>textBoxCheckupTime</value>
+  </data>
+  <data name="&gt;&gt;labelCheckupNumber.Name" xml:space="preserve">
+    <value>labelCheckupNumber</value>
+  </data>
+  <data name="&gt;&gt;textBoxCheckupJMBG.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;buttonCheckupConfirm.Name" xml:space="preserve">
+    <value>buttonCheckupConfirm</value>
+  </data>
+  <data name="&gt;&gt;textBoxCheckupPatient.Name" xml:space="preserve">
+    <value>textBoxCheckupPatient</value>
+  </data>
+  <data name="textBoxCheckupJMBG.Size" type="System.Drawing.Size, System.Drawing">
+    <value>235, 22</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="iconMedical.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 32</value>
+  </data>
+  <data name="labelCheckupExit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>349, 12</value>
+  </data>
+  <data name="labelCheckupProblem.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;labelCheckupProblem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="textBoxCheckupPatient.Size" type="System.Drawing.Size, System.Drawing">
+    <value>235, 22</value>
+  </data>
+  <data name="textBoxCheckupTime.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 9pt</value>
+  </data>
+  <data name="buttonCheckupClear.Location" type="System.Drawing.Point, System.Drawing">
+    <value>129, 389</value>
+  </data>
+  <data name="textBoxCheckupProblem.Location" type="System.Drawing.Point, System.Drawing">
+    <value>129, 209</value>
+  </data>
+  <data name="&gt;&gt;labelTitlebarCheckup.Parent" xml:space="preserve">
+    <value>panelCheckupTitleBar</value>
+  </data>
+  <data name="&gt;&gt;labelCheckupExit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBoxCheckupDate.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;textBoxCheckupDoctor.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="labelCheckupPeriod.Text" xml:space="preserve">
+    <value>Weeks between
+check-ups:</value>
+  </data>
+  <data name="&gt;&gt;labelCheckupExit.Name" xml:space="preserve">
+    <value>labelCheckupExit</value>
+  </data>
+  <data name="labelCheckupNumber.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 130</value>
+  </data>
+  <data name="labelCheckupPeriod.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 9pt</value>
+  </data>
+  <data name="buttonCheckupClear.Text" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="textBoxCheckupTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>235, 22</value>
+  </data>
+  <data name="&gt;&gt;labelCheckupPeriod.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="textBoxCheckupDate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>235, 22</value>
+  </data>
+  <data name="labelCheckupTime.Text" xml:space="preserve">
+    <value>Check-up time:</value>
+  </data>
+  <data name="&gt;&gt;labelCheckupJMBG.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelCheckupDate.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="labelCheckupTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 14</value>
+  </data>
+  <data name="labelCheckupExit.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="buttonCheckupClear.TabIndex" type="System.Int32, mscorlib">
+    <value>48</value>
+  </data>
+  <data name="panelCheckupTitleBar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>389, 40</value>
+  </data>
+  <data name="labelCheckupJMBG.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;iconMedical.Type" xml:space="preserve">
+    <value>FontAwesome.Sharp.IconPictureBox, FontAwesome.Sharp, Version=5.8.3.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="labelCheckupNumber.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelCheckupPeriod.Size" type="System.Drawing.Size, System.Drawing">
+    <value>109, 28</value>
+  </data>
+  <data name="labelCheckupDate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 14</value>
+  </data>
+  <data name="textBoxCheckupDoctor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>129, 345</value>
+  </data>
+  <data name="textBoxCheckupDoctor.TabIndex" type="System.Int32, mscorlib">
+    <value>42</value>
+  </data>
+  <data name="labelCheckupExit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 10pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;textBoxCheckupJMBG.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBoxCheckupPeriod.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="labelTitlebarCheckup.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;labelCheckupDoctor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;iconMedical.Parent" xml:space="preserve">
+    <value>panelCheckupTitleBar</value>
+  </data>
+  <data name="&gt;&gt;textBoxCheckupPatient.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="labelCheckupDoctor.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="textBoxCheckupTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>129, 265</value>
+  </data>
+  <data name="textBoxCheckupDoctor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>235, 22</value>
+  </data>
+  <data name="&gt;&gt;textBoxCheckupNumber.Name" xml:space="preserve">
+    <value>textBoxCheckupNumber</value>
+  </data>
+  <data name="&gt;&gt;textBoxCheckupProblem.Name" xml:space="preserve">
+    <value>textBoxCheckupProblem</value>
+  </data>
+  <data name="labelCheckupTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 272</value>
+  </data>
+  <data name="&gt;&gt;iconCheckupExit.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelCheckupPatient.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="labelTitlebarCheckup.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="labelCheckupTime.TabIndex" type="System.Int32, mscorlib">
+    <value>36</value>
+  </data>
+  <data name="&gt;&gt;labelCheckupDate.Name" xml:space="preserve">
+    <value>labelCheckupDate</value>
+  </data>
+  <data name="labelCheckupNumber.TabIndex" type="System.Int32, mscorlib">
+    <value>49</value>
+  </data>
+  <data name="textBoxCheckupPatient.Location" type="System.Drawing.Point, System.Drawing">
+    <value>129, 57</value>
+  </data>
+  <data name="buttonCheckupConfirm.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 9pt</value>
+  </data>
+  <data name="&gt;&gt;textBoxCheckupDoctor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBoxCheckupPeriod.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="labelCheckupPeriod.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelCheckupTime.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 9pt</value>
+  </data>
+  <data name="buttonCheckupClear.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="textBoxCheckupNumber.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 9pt</value>
+  </data>
+  <data name="labelCheckupJMBG.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 97</value>
+  </data>
+  <data name="&gt;&gt;textBoxCheckupProblem.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="textBoxCheckupNumber.TabIndex" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="labelTitlebarCheckup.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 10pt, style=Bold</value>
+  </data>
+  <data name="buttonCheckupConfirm.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="buttonCheckupClear.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 23</value>
+  </data>
+  <data name="&gt;&gt;labelCheckupDoctor.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="labelCheckupTime.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;textBoxCheckupDoctor.Name" xml:space="preserve">
+    <value>textBoxCheckupDoctor</value>
+  </data>
+  <data name="&gt;&gt;labelCheckupNumber.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;textBoxCheckupTime.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="labelCheckupPatient.TabIndex" type="System.Int32, mscorlib">
+    <value>34</value>
+  </data>
+  <data name="&gt;&gt;labelCheckupDoctor.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="textBoxCheckupPatient.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 9pt</value>
+  </data>
+  <data name="labelCheckupJMBG.TabIndex" type="System.Int32, mscorlib">
+    <value>44</value>
+  </data>
+  <data name="&gt;&gt;labelCheckupTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="textBoxCheckupPatient.TabIndex" type="System.Int32, mscorlib">
+    <value>38</value>
+  </data>
+  <data name="textBoxCheckupNumber.Location" type="System.Drawing.Point, System.Drawing">
+    <value>129, 130</value>
+  </data>
+  <data name="&gt;&gt;iconCheckupExit.Parent" xml:space="preserve">
+    <value>panelCheckupTitleBar</value>
+  </data>
+  <data name="labelCheckupExit.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;buttonCheckupConfirm.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;panelCheckupTitleBar.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>389, 429</value>
+  </data>
+  <data name="textBoxCheckupProblem.TabIndex" type="System.Int32, mscorlib">
+    <value>39</value>
+  </data>
+  <data name="&gt;&gt;labelCheckupProblem.Name" xml:space="preserve">
+    <value>labelCheckupProblem</value>
+  </data>
+  <data name="&gt;&gt;labelCheckupPeriod.Name" xml:space="preserve">
+    <value>labelCheckupPeriod</value>
+  </data>
+  <data name="labelTitlebarCheckup.Location" type="System.Drawing.Point, System.Drawing">
+    <value>37, 12</value>
+  </data>
+  <data name="&gt;&gt;textBoxCheckupDate.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelCheckupPatient.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="labelCheckupDoctor.Text" xml:space="preserve">
+    <value>Doctor:</value>
+  </data>
+  <data name="panelCheckupTitleBar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="labelTitlebarCheckup.Text" xml:space="preserve">
+    <value>Appoint Check-up</value>
+  </data>
+  <data name="labelCheckupExit.Text" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="labelCheckupNumber.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 9pt</value>
+  </data>
+  <data name="&gt;&gt;textBoxCheckupJMBG.Name" xml:space="preserve">
+    <value>textBoxCheckupJMBG</value>
+  </data>
+  <data name="labelCheckupPatient.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;labelTitlebarCheckup.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;labelCheckupNumber.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelCheckupExit.Parent" xml:space="preserve">
+    <value>panelCheckupTitleBar</value>
+  </data>
+  <data name="iconMedical.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;textBoxCheckupDate.Name" xml:space="preserve">
+    <value>textBoxCheckupDate</value>
+  </data>
+  <data name="iconMedical.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;iconCheckupExit.Type" xml:space="preserve">
+    <value>FontAwesome.Sharp.IconPictureBox, FontAwesome.Sharp, Version=5.8.3.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="textBoxCheckupProblem.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;buttonCheckupConfirm.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panelCheckupTitleBar.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;textBoxCheckupDate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelCheckupTime.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;buttonCheckupClear.Name" xml:space="preserve">
+    <value>buttonCheckupClear</value>
+  </data>
+  <data name="&gt;&gt;labelTitlebarCheckup.Name" xml:space="preserve">
+    <value>labelTitlebarCheckup</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+</root>
